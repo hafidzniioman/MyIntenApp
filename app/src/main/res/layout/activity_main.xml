@@ -32,4 +32,26 @@
         android:text="Pindah Activity dengan object"
         android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_dial_number"
+        android:text="dial a number"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_move_for_result"
+        android:text="pindah activity untuk result"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_result"
+        android:text="Hasil"
+        android:textSize="24sp"
+        android:gravity="center"/>
+
 </LinearLayout>
